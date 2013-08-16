@@ -1,0 +1,212 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{417B35E1-8077-4D89-8788-320D860BE3ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XCBIR</RootNamespace>
+    <AssemblyName>XCBIR</AssemblyName>
+    <ManifestCertificateThumbprint>4C540E1FD05EE39DA663660F205A667AAFEB548F</ManifestCertificateThumbprint>
+    <ManifestKeyFile>XCBIR_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationIcon>X-CBIR icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FeatureExtractor, Version=0.0.3341.38484, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="ImageManipulation, Version=0.0.3320.568, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ImageManipulation.dll</HintPath>
+    </Reference>
+    <Reference Include="MWArray, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e1d84a0da19db86f, processorArchitecture=x86" />
+    <Reference Include="PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PureComponents.ActionSet.dll</HintPath>
+    </Reference>
+    <Reference Include="PureComponents.EntrySet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PureComponents.EntrySet.dll</HintPath>
+    </Reference>
+    <Reference Include="PureComponents.ScheduleSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PureComponents.ScheduleSet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\category.cs" />
+    <Compile Include="Classes\databaseController.cs" />
+    <Compile Include="Classes\Feature.cs" />
+    <Compile Include="Classes\featureExtractor.cs" />
+    <Compile Include="Classes\imageProcessor.cs" />
+    <Compile Include="Classes\imageProcessorOperation.cs" />
+    <Compile Include="Classes\imageRecord.cs" />
+    <Compile Include="Classes\indexer.cs" />
+    <Compile Include="Classes\login.cs" />
+    <Compile Include="Classes\Ontology.cs" />
+    <Compile Include="Classes\search.cs" />
+    <Compile Include="Classes\systemController.cs" />
+    <Compile Include="frmAddDBConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddDBConnection.Designer.cs">
+      <DependentUpon>frmAddDBConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCatCtl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCatCtl.Designer.cs">
+      <DependentUpon>frmCatCtl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPatiantControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatiantControl.Designer.cs">
+      <DependentUpon>frmPatiantControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeriesControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeriesControl.Designer.cs">
+      <DependentUpon>frmSeriesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewImage.Designer.cs">
+      <DependentUpon>frmViewImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Patiant.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddDBConnection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddDBConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCatCtl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCatCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPatiantControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPatiantControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeriesControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSeriesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewImage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmViewImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Classes\CBIRClassDiagram.cd" />
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="XCBIR_TemporaryKey.pfx" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Classes\Result.cs" />
+    <Compile Include="Classes\Series.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="X-CBIR icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

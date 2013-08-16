@@ -1,0 +1,3 @@
+Data Source=PRINCE\SQLEXPRESS;Initial Catalog=CBIR_DB;Integrated Security=True
+Data Source=ASH\SQLEXPRESS;Initial Catalog=CBIR_DB;Integrated Security=True
+Data Source=ANGELIOS\SQLEXPRESS;Initial Catalog=CBIR_DB;Integrated Security=True*

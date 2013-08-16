@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="XCBIR.Classes.category" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\category.cs</FileName>
+      <HashCode>AAAAAAAAAAIAgABAAAAAQAQAAAAEAAAAAAAACAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.databaseController" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\databaseController.cs</FileName>
+      <HashCode>AAQAAAAABAAAAAxAAAAAQMAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.featureExtractor" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\featureExtractor.cs</FileName>
+      <HashCode>IAECAAAAAAAIAAAAiABEAIIARAAAAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.imageProcessor" Collapsed="true">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\imageProcessor.cs</FileName>
+      <HashCode>gAAAAIAAAAAABAEgAAAAAAAAAAAgAAAAAAAAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.imageRecord" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\imageRecord.cs</FileName>
+      <HashCode>ABAAMAAAQAAAgAAAAABAAAQAQAAAQAIAAEAAEABAAhA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.indexer" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\indexer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.login" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\login.cs</FileName>
+      <HashCode>AAAAAAAAAAACAAAAAwAAAAEAAAAAAAACAAAAAgAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.search" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\search.cs</FileName>
+      <HashCode>IAAAAAABAAAAAAAgAgAAAAAAAABAACAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.systemController" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\systemController.cs</FileName>
+      <HashCode>AAAAAAAAAAQAIQAAQgBAgkABAgIAAAAQIAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Feature" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\Feature.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAECAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.imageProcessorOperation" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\imageProcessorOperation.cs</FileName>
+      <HashCode>AAAAEAAAAAAAAAAAACAAEAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Ontology" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\Ontology.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAABAAAQAQAAEAAAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Result" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\Result.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAEAAAABAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.Series" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\Series.cs</FileName>
+      <HashCode>AAAgAAAAAAAAgAIAAACCAAgAAAAAAAAAIgABAAaAIwA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCBIR.Classes.Patiant" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Classes\Patiant.cs</FileName>
+      <HashCode>AAAAEAIAAAACwAAAAEAAAAQAAAAEAAAAQAAAAAAgAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

@@ -1,0 +1,17 @@
+PureComponents.ActionSet.RibbonUI.RibbonScrollablePanel, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonLayoutPanel, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonButton, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.EntrySet.Lists.PictureList, PureComponents.EntrySet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonGroupPanel, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.Ribbon, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonTextBox, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonComboBox, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.EntrySet.Controls.Label, PureComponents.EntrySet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.EntrySet.Controls.RichEditBox, PureComponents.EntrySet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonButtonGroup, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonTab, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonForm, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonThemeController, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.EntrySet.Controls.SystemProgressBar, PureComponents.EntrySet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.EntrySet.Lists.MultiList, PureComponents.EntrySet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc
+PureComponents.ActionSet.RibbonUI.RibbonDropDownButton, PureComponents.ActionSet, Version=2008.1.507.0, Culture=neutral, PublicKeyToken=4f90fce1210833dc

@@ -1,0 +1,33 @@
+#MATLAB Preferences
+#Mon Feb 23 19:30:55 AST 2009
+RLHiddenB2_WB_2006b_1=I16184
+RLOrderB2_WB_2006b_1=S0:1:2:3:
+RLPrevInitB2_WB_2006b_1=Btrue
+CodepadShowMessageBar=Bfalse
+RLPrevInitB2_FigurePalette2=Btrue
+FileBrowserFiveColumnWidths=S[150 100 75 150 400]
+RLHiddenB2_FigurePalette2=I16372
+ReplaceMatchCase=Btrue
+WorkspaceBrowserClearConfirmation=Bfalse
+ReplaceWordWrap=Bfalse
+MatlabExitConfirm=Bfalse
+RLPrevInitB2_null=Btrue
+ReplaceWholeWord=Bfalse
+RLWidthB2_WB_2006b_1_3=I52
+RLWidthB2_WB_2006b_1_2=I50
+RLWidthB2_WB_2006b_1_1=I103
+RLWidthB2_WB_2006b_1_0=I110
+EditorMRU9=S
+EditorMRU8=S
+MatlabErrorLogReportTime=J4694549835833049826
+EditorMRU7=S
+EditorMRU6=S
+ArrayEditor_CS_Format=I0
+EditorMRU5=S
+EditorMRU4=SC:\\Documents and Settings\\Ahmad\\My Documents\\MATLAB\\Project 23.02.2009\\Edge\\CannyEdgeHistogram.m
+CommandWindowShowStartupMessage=Bfalse
+EditorMRU3=SC:\\Documents and Settings\\Ahmad\\My Documents\\MATLAB\\Project 23.02.2009\\Shape Features\\ExtractShapeInfo.m
+EditorMRU2=SC:\\Documents and Settings\\Ahmad\\My Documents\\MATLAB\\Project 23.02.2009\\Texture Feature\\ExtractTextureInfo.m
+CommandWindowClearConfirmation=Btrue
+EditorMRU1=SC:\\Documents and Settings\\Ahmad\\My Documents\\MATLAB\\Project 23.02.2009\\Brian location\\CropBrain.m
+FileBrowserFiveColumnOrder=S[0 1 2 3 4]
